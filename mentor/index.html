@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+</head>
+
+<body>
+  <header class="primary-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#"><img src="/images/logo.svg" alt="Manage"></a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul aria-label="Primary" role="list" class="nav-list">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </nav>
+        <button class="button | display-sm-none display-md-inline-flex">Get Started</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero | text-center-sm-only padding-block-900">
+      <div class="container">
+        <div class="even-columns">
+          <div class="flow">
+            <h1 class="fs-primary-heading fw-bold">Bring everyone
+              together to build
+              better products.</h1>
+            <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in
+              view.</p>
+            <button class="button">Get Started</button>
+          </div>
+          <div class="hero__image">
+            <img class="mx-auto" src="/images/illustration-intro.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sales-points | padding-block-900">
+      <div class="container">
+        <div class="even-columns">
+          <div class="sales-points__blog | flow text-center-sm-only margi" style="--flow-spacer: 1.5rem">
+            <h2 class="fs-secondary-heading fw-bold">What’s different about Manage?</h2>
+            <p>Manage provides all the functionality your team needs, without the complexity. Our software is
+              tailor-made for modern
+              digital product teams.</p>
+          </div>
+          <div>
+            <ul class="numbered-items | flow" role="list">
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Track company-wide progress</h3>
+                  <p class="numbered-items__body" data-width="wide">See how your day-to-day tasks fit into the wider
+                    vision. Go from tracking
+                    progress at the milestone
+                    level all the way
+                    done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                </div>
+              </li>
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Advanced built-in reports</h3>
+                  <p class="numbered-items__body" data-width="wide">Set internal delivery estimates and track progress
+                    toward company goals. Our
+                    customisable dashboard
+                    helps you build out
+                    the reports you need to keep key stakeholders informed.</p>
+
+                </div>
+              </li>
+              <li>
+                <div class="flow" style="--flow-spacer: 1em">
+                  <h3 class="numbered-items__title | fs-600 fw-bold">Everything you need in one place</h3>
+                  <p class="numbered-items__body" data-width="wide">Stop jumping from one service to another to
+                    communicate, store files, track tasks
+                    and share
+                    documents. Manage offers an
+                    all-in-one team productivity solution.</p>
+
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel | padding-block-700 text-center">
+      <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
+      <!-- Carousel here -->
+      <ul class="slider">
+        <li>
+          <img src="/images/avatar-anisha.png" alt="">
+
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Anisha Li</h3>
+            <p data-width="wide">“Manage has supercharged our team’s workflow. The ability to maintain visibility on
+              larger milestones at all times keeps
+              everyone motivated.”</p>
+          </div>
+        </li>
+        <li>
+          <img src="/images/avatar-ali.png" alt="">
+
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Ali Bravo</h3>
+            <p data-width="wide">“We have been able to cancel so many other subscriptions since using Manage. There is
+              no
+              more cross-channel
+              confusion
+              and everyone is much more focused.”</p>
+          </div>
+        </li>
+        <li>
+          <img src="/images/avatar-richard.png" alt="">
+
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Richard Watts</h3>
+            <p data-width="wide">“Manage allows us to provide structure and process. It keeps us organized and focused.
+              I
+              can’t stop recommending them to
+              everyone I talk to!” </p>
+          </div>
+        </li>
+        <li>
+          <img src="/images/avatar-shanai.png" alt="">
+
+          <div class="slider-content | flow" style="--flow-spacer: 1rem">
+            <h3 class="fw-bold">Shanai Gough</h3>
+            <p data-width="wide">“Their software allows us to track, manage and collaborate on our projects from
+              anywhere.
+              It keeps the whole team
+              in-sync without being intrusive.” </p>
+          </div>
+        </li>
+      </ul>
+      <button class="button">Get Started</button>
+    </section>
+
+    <section class="cta | margin-top-900 padding-block-900 bg-accent-400 text-neutral-100">
+      <div class="container">
+        <div class="even-columns vertical-align-center">
+          <div>
+            <p class="fs-primary-heading fw-bold">Simplify how your team works today.</p>
+          </div>
+          <div class="justify-self-end-md">
+            <button class="button" data-type="inverted">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="primary-footer | padding-block-700 bg-neutral-900 text-neutral-100">
+    <div class="container">
+      <div class="primary-footer__wrapper">
+
+          <a class="primary-footer__logo" href="#" aria-label="home">
+            <img class="logo" src="/images/logo.svg" alt="">
+          </a>
+
+          <ul class="social-list" role="list" aria-label="Social links">
+            <svg class="social-icon | social-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+              height="40" viewBox="0,0,256,256">
+              <g fill-opacity="10" fill="#fff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                style="mix-blend-mode: normal">
+                <g transform="scale(5.12,5.12)">
+                  <path
+                    d="M24.40234,9c-6.60156,0 -12.80078,0.5 -16.10156,1.19922c-2.19922,0.5 -4.10156,2 -4.5,4.30078c-0.39844,2.39844 -0.80078,6 -0.80078,10.5c0,4.5 0.39844,8 0.89844,10.5c0.40234,2.19922 2.30078,3.80078 4.5,4.30078c3.50391,0.69922 9.5,1.19922 16.10156,1.19922c6.60156,0 12.59766,-0.5 16.09766,-1.19922c2.20313,-0.5 4.10156,-2 4.5,-4.30078c0.40234,-2.5 0.90234,-6.09766 1,-10.59766c0,-4.5 -0.5,-8.10156 -1,-10.60156c-0.39844,-2.19922 -2.29687,-3.80078 -4.5,-4.30078c-3.5,-0.5 -9.59766,-1 -16.19531,-1zM24.40234,11c7.19922,0 12.99609,0.59766 15.79688,1.09766c1.5,0.40234 2.69922,1.40234 2.89844,2.70313c0.60156,3.19922 1,6.60156 1,10.10156c-0.09766,4.29688 -0.59766,7.79688 -1,10.29688c-0.29687,1.89844 -2.29687,2.5 -2.89844,2.70313c-3.60156,0.69922 -9.60156,1.19531 -15.60156,1.19531c-6,0 -12.09766,-0.39844 -15.59766,-1.19531c-1.5,-0.40234 -2.69922,-1.40234 -2.89844,-2.70312c-0.80078,-2.80078 -1.10156,-6.5 -1.10156,-10.19922c0,-4.60156 0.40234,-8 0.80078,-10.09766c0.30078,-1.90234 2.39844,-2.50391 2.89844,-2.70312c3.30078,-0.69922 9.40234,-1.19922 15.70313,-1.19922zM19,17v16l14,-8zM21,20.40234l8,4.59766l-8,4.59766z">
+                  </path>
+                </g>
+              </g>
+            </svg>
+            </li>
+            <li>
+              <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="40"
+                viewBox="0,0,256,256">
+                <g fill-opacity="10" fill="#fff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                  stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                  stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                  style="mix-blend-mode: normal">
+                  <g transform="scale(8,8)">
+                    <path
+                      d="M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z">
+                    </path>
+                  </g>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="40"
+                viewBox="0,0,256,256">
+                <g fill-opacity="10" fill="#fff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                  stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                  stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                  style="mix-blend-mode: normal">
+                  <g transform="scale(5.33333,5.33333)">
+                    <path
+                      d="M44.719,10.305c-0.295,-0.305 -0.749,-0.392 -1.136,-0.214l-0.164,0.075c-0.139,0.064 -0.278,0.128 -0.418,0.191c0.407,-0.649 0.73,-1.343 0.953,-2.061c0.124,-0.396 -0.011,-0.829 -0.339,-1.085c-0.328,-0.256 -0.78,-0.283 -1.135,-0.066c-1.141,0.693 -2.237,1.192 -3.37,1.54c-1.71,-1.659 -4.039,-2.685 -6.61,-2.685c-5.247,0 -9.5,4.253 -9.5,9.5c0,0.005 0,0.203 0,0.5l-0.999,-0.08c-9.723,-1.15 -12.491,-7.69 -12.606,-7.972c-0.186,-0.47 -0.596,-0.813 -1.091,-0.916c-0.494,-0.105 -1.007,0.05 -1.365,0.407c-0.198,0.199 -1.939,2.041 -1.939,5.561c0,2.508 1.118,4.542 2.565,6.124c-0.674,-0.411 -1.067,-0.744 -1.077,-0.753c-0.461,-0.402 -1.121,-0.486 -1.669,-0.208c-0.546,0.279 -0.868,0.862 -0.813,1.473c0.019,0.211 0.445,4.213 5.068,7.235l-0.843,0.153c-0.511,0.093 -0.938,0.444 -1.128,0.928c-0.189,0.485 -0.115,1.032 0.197,1.448c0.105,0.141 2.058,2.68 6.299,4.14c-2.265,0.755 -5.377,1.46 -9.099,1.46c-0.588,0 -1.123,0.344 -1.366,0.88c-0.244,0.536 -0.151,1.165 0.237,1.607c0.161,0.185 4.064,4.513 14.129,4.513c16.713,0 24.5,-15.515 24.5,-26v-0.5c0,-0.148 -0.016,-0.293 -0.022,-0.439c2.092,-2.022 2.879,-3.539 2.917,-3.614c0.189,-0.38 0.119,-0.838 -0.176,-1.142z">
+                    </path>
+                  </g>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="40"
+                viewBox="0,0,256,256">
+                <g fill-opacity="10" fill="#fff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                  stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                  stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                  style="mix-blend-mode: normal">
+                  <g transform="scale(10.66667,10.66667)">
+                    <path
+                      d="M12,2c-5.523,0 -10,4.477 -10,10c0,5.523 4.477,10 10,10c5.523,0 10,-4.477 10,-10c0,-5.523 -4.477,-10 -10,-10zM12,4c4.418,0 8,3.582 8,8c0,4.418 -3.582,8 -8,8c-0.73562,0 -1.44451,-0.10703 -2.12109,-0.29297c0.21281,-0.42875 0.40372,-0.88058 0.50781,-1.28125c0.115,-0.44 0.58594,-2.23437 0.58594,-2.23437c0.306,0.584 1.20034,1.08008 2.15234,1.08008c2.833,0 4.875,-2.60575 4.875,-5.84375c0,-3.105 -2.53297,-5.42773 -5.79297,-5.42773c-4.055,0 -6.20703,2.72155 -6.20703,5.68555c0,1.378 0.73325,3.09363 1.90625,3.64063c0.178,0.083 0.27345,0.047 0.31445,-0.125c0.032,-0.131 0.19072,-0.76941 0.26172,-1.06641c0.023,-0.094 0.01255,-0.17653 -0.06445,-0.26953c-0.388,-0.471 -0.69922,-1.33558 -0.69922,-2.14258c0,-2.073 1.56919,-4.07812 4.24219,-4.07812c2.308,0 3.92383,1.57327 3.92383,3.82227c0,2.541 -1.28312,4.30078 -2.95312,4.30078c-0.922,0 -1.61458,-0.76127 -1.39258,-1.69727c0.265,-1.117 0.7793,-2.32291 0.7793,-3.12891c0,-0.721 -0.3855,-1.32227 -1.1875,-1.32227c-0.943,0 -1.70117,0.97425 -1.70117,2.28125c0,0.832 0.28125,1.39453 0.28125,1.39453c0,0 -0.93056,3.93692 -1.10156,4.66992c-0.08475,0.36174 -0.11304,0.7903 -0.11523,1.21875c-2.65837,-1.30048 -4.49414,-4.02495 -4.49414,-7.18359c0,-4.418 3.582,-8 8,-8z">
+                    </path>
+                  </g>
+                </g>
+              </svg>
+            </li>
+            <li>
+              <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="40"
+                viewBox="0,0,256,256">
+                <g fill-opacity="10" fill="#fff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                  stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                  stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                  style="mix-blend-mode: normal">
+                  <g transform="scale(8,8)">
+                    <path
+                      d="M7,5c-1.09375,0 -2,0.90625 -2,2v18c0,1.09375 0.90625,2 2,2h18c1.09375,0 2,-0.90625 2,-2v-18c0,-1.09375 -0.90625,-2 -2,-2zM7,7h18v18h-5.1875v-6.75h2.59375l0.375,-3h-2.96875v-1.9375c0,-0.875 0.21484,-1.46875 1.46875,-1.46875h1.625v-2.71875c-0.27734,-0.03516 -1.23828,-0.09375 -2.34375,-0.09375c-2.30469,0 -3.875,1.38672 -3.875,3.96875v2.25h-2.625v3h2.625v6.75h-9.6875z">
+                    </path>
+                  </g>
+                </g>
+              </svg>
+            </li>
+          </ul>
+       
+        <div class="primary-footer__nav-wrapper">
+          <nav class="footer-nav">
+            <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- <div class="primary-footer-form"> -->
+          <form class="primary-footer__form" action="">
+            <input type="email">
+            <button class="button" data-shadow="none">Go</button>
+          </form>
+          <p class="primary-footer__copyright">Copyright 2020. All Rights Reserved</p>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+  </footer>
+
+
+  <script type="module" src="./main.js"></script>
+  <script src="//unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
+</body>
+
+</html>
