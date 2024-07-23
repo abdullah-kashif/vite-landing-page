@@ -300,6 +300,7 @@ margin-inline: auto;
 }
 
 .primary-footer__copyright {
+  font-size: var(--size-300);
   grid-area: copyright;
   opacity: 0.7;
   text-align: center;
@@ -318,7 +319,8 @@ margin-inline: auto;
 }
 
 .footer-nav a {
-  color: var(--clr-neutral-100);
+  /* color: var(--clr-accent-100); */
+  color: rgb(221, 218, 218);
   text-decoration: none;
 }
 
@@ -352,10 +354,6 @@ input:where([type="text"], [type="email"], ) {
     text-align: center;
   }
 }
-
-
-
-
 
 /* social list */
 
@@ -569,7 +567,7 @@ input:where([type="text"], [type="email"], ) {
   right: 0;
   top: 0;
   width: 87%;
-  max-height: 90vh;
+  max-height: 85vh;
   aspect-ratio: 1 / 1.2;
   background-image: url(/images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
@@ -578,7 +576,7 @@ input:where([type="text"], [type="email"], ) {
 
 @media (min-width: 47em) {
   .hero__image::before {
-    width: 35%;
+    width: 45%;
   }
 }
 
@@ -590,6 +588,9 @@ input:where([type="text"], [type="email"], ) {
 
 /* sales points */
 
+.sales-points{
+  line-height: var(--size-500);
+}
 .sales-points__blog {
   position: relative;
 }
@@ -600,41 +601,26 @@ input:where([type="text"], [type="email"], ) {
   position: absolute;
   z-index: -1;
   left: 70%;
-  bottom: 120%;
+  bottom: 100%;
   width: 100px;
 }
 
 @media (min-width: 47em) {
   .sales-points__blog::before {
-    zoom: 70%;
+    zoom: 80%;
     z-index: -1;
-    left: -800px;
+    left: -500px;
     top: 42%;
     width: 100px;
   }
 }
-/* @media (min-width: 1520px) {
-  .sales-points__blog::before {
-    zoom: 70%;
-    z-index: -1;
-    left: -1200px;
-    top: 42%;
-    width: 100px;
-  }
-} */
-
-/* @media (min-width: 1150px){
-  .sales-points__blog::before {
-    display: block;
-    zoom: 70%;
-    z-index: -1;
-    left: -500px;
-    top: 42%;
-    width: 200px;
-  }
-} */
 /* Utility classes */
 
+
+.numbered-items__body{
+  color: #242D52 !important;
+  opacity: 0.7;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -810,4 +796,8 @@ input:where([type="text"], [type="email"], ) {
   .display-md-inline-flex {
     display: inline-flex;
   }
+}
+
+.hide-nav-toggle {
+  display: none;
 }
